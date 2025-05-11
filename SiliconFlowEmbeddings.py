@@ -4,7 +4,7 @@ from langchain_core.embeddings import Embeddings
 import os # 用于文件读取测试 (如果之前的测试代码还在的话)
 
 # 定义您的硅基流动 API 密钥 (请替换成您的真实密钥)
-SILICONFLOW_API_KEY = "sk-cqbudipmjjawthzlkygswcpeaexznqfivulrotjjpvsxlpnb" # <--- 请在这里替换成您的 API 密钥
+SILICONFLOW_API_KEY = "sk-A" # <--- 请在这里替换成您的 API 密钥
 
 class SiliconFlowEmbeddings(Embeddings):
     """

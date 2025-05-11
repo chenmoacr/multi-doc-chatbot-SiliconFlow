@@ -18,7 +18,7 @@ from langchain_core.outputs import ChatGeneration, ChatResult
 # 定义您的硅基流动 API 密钥 (请替换成您的真实密钥)
 # 注意：直接在代码中硬编码 API 密钥仅适用于测试和演示环境。
 # 在生产环境中，请使用更安全的方式管理密钥，例如环境变量。
-SILICONFLOW_API_KEY = "sk-cqbudipmjjawthzlkygswcpeaexznqfivulrotjjpvsxlpnb" # <--- 请在这里替换成您的 API 密钥 (与 Embeddings 类使用相同的密钥)
+SILICONFLOW_API_KEY = "sk-A" # <--- 请在这里替换成您的 API 密钥 (与 Embeddings 类使用相同的密钥)
 
 class SiliconFlowChatModel(BaseChatModel):
     """
